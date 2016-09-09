@@ -2,3 +2,93 @@
 *{
 	border: 1px solid gray;
 }
+
+body {
+	font-family: "ff-tisa-web-pro", serif
+}
+
+p {
+	font-family: "ff-tisa-sans-web", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif
+}
+
+div {
+	display: block;
+}
+
+.row{
+	box-sizing: border-box;
+}
+
+.l-header {
+	background-color: darkslategray;
+	font-family: "ff-tisa-sans-web", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.l-header-logo{
+	display: inline-block;
+	float: left;
+}
+
+.l-header-nav{
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+.l-header-nav a{
+	color: #ffffff;
+}
+
+.l-header-nav-secondary{
+	font-size: 0.875rem;
+	display: inline;
+	float: right;
+}
+
+.l-header-nav-secondary a {
+	color: rgba(245, 248, 250, 0.6);
+}
+
+.xs-hide .left{
+	display: block;
+	list-style-type: disc;
+}
+
+ul, menu, dir {
+	display: block;
+	/*list-style-type: disc;*/
+	list-style: none;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+li{
+	display: inline;
+}
+
+.section-title{
+	font-size: 34px;
+	line-height: 36px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+.white-color{
+	color: #ffffff;
+}
+
+.graybox .contact-block {
+	position: relative;
+	border-radius: 10px;
+	margin: 0 auto;
+	max-height: 295px;
+	background-color: #EBEBEB;
+	padding: 15px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #d2d2d2;
+}
